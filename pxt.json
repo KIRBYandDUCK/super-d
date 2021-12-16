@@ -2,7 +2,8 @@
     "name": "Super D",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "FNF VS SPACE": "github:gamemaker5000/fnf-vs-space#v0.0.1"
     },
     "files": [
         "main.blocks",
