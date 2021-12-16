@@ -112,9 +112,6 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     true
     )
 })
-controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
-	
-})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     Melee2 = sprites.createProjectileFromSprite(img`
         ......1451..........
@@ -771,24 +768,6 @@ MainC = sprites.create(img`
     ................
     ................
     ................
-    `, SpriteKind.Player)
-let mySprite = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
 Melee2.destroy(effects.disintegrate, 1)
 MainC.setPosition(76, 55)

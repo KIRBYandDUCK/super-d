@@ -4,7 +4,10 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "FNF VS SPACE": "github:gamemaker5000/fnf-vs-space#v0.0.1"
+        "FNF VS SPACE": "github:gamemaker5000/fnf-vs-space#v0.0.1",
+        "Super D": "pub:03884-63125-25639-07409",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "animation": "*"
     },
     "files": [
         "main.blocks",
